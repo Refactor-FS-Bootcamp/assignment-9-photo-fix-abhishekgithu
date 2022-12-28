@@ -28,7 +28,7 @@ const Header = () => {
         <HeaderOption Icon={BusinessCenter} title="Jobs" />
         <HeaderOption Icon={Chat} title="Messaging" />
         <HeaderOption Icon={Notifications} title="Notifications" />
-        <HeaderOption avatar={true} title="me" onClick={logoutApp} />
+        <HeaderOption avatar="https://lh3.googleusercontent.com/a/AEdFTp4cP2yKuzwmcqT6WPYPJfJV5FJmzN-i3sfmJ2N0=s432-p-rw-no" title="me" onClick={logoutApp} />
       </div>
     </div>
   )

@@ -30,7 +30,7 @@ const Feed = () => {
             name: user.displayName,
             description: user.email,
             message: input,
-            photoUrl: user.photoUrl || '',
+            photoUrl: "https://lh3.googleusercontent.com/a/AEdFTp4cP2yKuzwmcqT6WPYPJfJV5FJmzN-i3sfmJ2N0=s432-p-rw-no",
             timestamp: firebase.firestore.FieldValue.serverTimestamp()
         })
         setInput('')

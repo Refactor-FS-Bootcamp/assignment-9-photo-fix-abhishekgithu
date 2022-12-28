@@ -18,7 +18,7 @@ const Sidebar = () => {
         <div className='sidebar'>
             <div className="sidebar__top">
                 <img src="background.jpg" alt="Background" />
-                <Avatar src={user?.photoUrl} className="sidebar__avatar">{user.email[0]}</Avatar>
+                <Avatar src="https://lh3.googleusercontent.com/a/AEdFTp4cP2yKuzwmcqT6WPYPJfJV5FJmzN-i3sfmJ2N0=s432-p-rw-no"/>
                 <h2>{user.displayName}</h2>
                 <h4>{user.email}</h4>
             </div>
